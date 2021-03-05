@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Gudea&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./randomTest.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="preview">
+        <h1>Welcome to Quizs</h1>
+        <h3>We have six questions...</h3>
+        <button>Get started</button>
+    </div>
+
+
+    <div class="single-sheet">
+        <h1 class="title"></h1>
+        <h3 class="question"></h3>
+        <ul class="option-container">
+            
+        </ul>
+        <button>Next</button>        
+    </div>
+
+    <div class="test-result">
+        <div class="test-result-title"><h1>TEST RESULT</h1></div>
+
+        <div class="question-result-section">
+            <div class="question-section">
+            <h2>Total Question</h2>
+            <h2>Correct</h2>
+            <h2>Wrong</h2>
+            <h2>Percentage</h2>
+            <h2>Your Total Score</h2>
+            </div>
+
+            <div class="result-section">
+                <div class="totalQuestion-result">
+                    <div class="color-block1"></div>
+                    <h5 class="totalQuestion-num"></h5>
+                </div>
+                <div class="correct-result">
+                    <div class="color-block2"></div>
+                    <h5 class="correct-num"></h5>
+                </div>
+                <div class="wrong-result">
+                    <div class="color-block3"></div>
+                    <h5 class="wrong-num"></h5>
+                </div>
+                <div class="percentage-result">
+                    <div class="color-block4"></div>
+                    <h5 class="percentage-num"></h5>
+                </div>
+                <div class="totalScore-result">
+                    <div class="color-block5"></div>
+                    <h5 class="score-num"></h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-area">
+            <button class="againBtn">Try Again</button>
+            <button>Store my record</button>
+        </div>
+    </div>
+
+
+
+    <script src="./data.js"></script>
+    <script src="./start.js"></script>
+    <script src="./sheet.js"></script>
+    <script src="./result.js"></script>
+</body>
+</html>
